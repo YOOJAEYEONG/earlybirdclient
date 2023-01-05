@@ -1,6 +1,7 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
+// import VueRouter from 'vue-router'
 </script>
 
 <template>
@@ -8,13 +9,18 @@ import TheWelcome from './components/TheWelcome.vue'
     <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <HelloWorld msg="You did it!." />
     </div>
   </header>
-
+  <hr>
   <main>
-    <TheWelcome />
+    <router-link to="/home">Go to Home</router-link>
+    <router-link to="/go1">go1</router-link>
+    <router-view></router-view>
+    <!-- <TheWelcome /> -->
+    
   </main>
+
 </template>
 
 <style scoped>

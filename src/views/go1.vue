@@ -1,0 +1,1 @@
+<template>go1</template>
