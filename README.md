@@ -16,6 +16,13 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 npm install
 ```
 
+### Compile css for Tailwind
+
+```sh
+# tailwind 클래스를 변경,추가 할때마다 컴파일 해줘야한다. 
+npm run buildcss
+```
+
 ### Compile and Hot-Reload for Development
 
 ```sh

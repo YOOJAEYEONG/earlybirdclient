@@ -1,12 +1,8 @@
-//import { createApp, VueElement } from 'vue'
-import Vue from 'vue'
+import { createApp, VueElement } from 'vue'
+
+import { router } from './router/router.js'
 import App from './App.vue'
+import './assets/tailwind.css'
 
-import { router } from './router/index.js'
-import './assets/main.css'
 
-//createApp(App).mount('#app')
-new Vue({
-    router,
-    render : h => h(App),
-}).$mount('#app')
+createApp(App).use(router).mount('#app')
