@@ -1,18 +1,25 @@
 <script setup>
 // document.title = "홈";
+import { ref, onMounted } from "vue";
 </script>
 <template>
   <div id="homevdom">
     <div class="flex flex-col border-separate">
       <ul>
-        <li v-for="item in list"></li>
+        <!--        <li v-for="item in list"></li>-->
+        <li>sddsf</li>
       </ul>
-      <div class="p-3 border border-slate-300">title 1</div>
-      <div class="p-3 border border-slate-300">title 1</div>
-      <div class="p-3 border border-slate-300">title 1</div>
+      <div class="p-3 border border-slate-300">
+        title 1
+      </div>
+      <div class="p-3 border border-slate-300">
+        title 1
+      </div>
+      <div class="p-3 border border-slate-300">
+        title 1
+      </div>
     </div>
     this is Home.vue
-
     <button
       class="py-2 px-4 font-semibold rounded-lg shadow-md text-white bg-green-500 hover:bg-green-700"
     >
